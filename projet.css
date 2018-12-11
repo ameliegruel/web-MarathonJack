@@ -1,0 +1,24 @@
+body {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+}
+
+.legend {
+    text-align: center;
+}
+
+.Cards {
+    background-image: url(img/table.PNG);
+    background-repeat: no-repeat;
+}
+
+.captionCard {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.image { 
+    text-align: center;
+}
+
