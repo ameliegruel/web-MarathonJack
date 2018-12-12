@@ -11,19 +11,23 @@
         <div class="table">
             <div class="Cards">
                 <figcaption class="captionCard">Dealer's card</figcaption>
-                <img src ="1.BMP" alt=" " id="image1"/>
-                <figcaption class="captionCard">Your cards</figcaption>   
-                <img src ="2.BMP" alt=" " id="image2"/>
+                <div id="dealerCard">
+                    <img class="dos" src ="dos.JPEG" alt=" " id="image1"/>
+                </div>
+                <figcaption class="captionCard">Your cards</figcaption>  
+                <div id="myCard"> 
+                    <img class="dos" src ="dos.JPEG" alt=" " id="image2"/>
+                </div>
             </div>
         </div>
-        <div>The dealer has "" points. </div>
-        <div>You have "" points. Card or stay? </div> 
-        <div>
-            <button type=button>Card</button>
-            <button type=button>Stay</button>
-            <button type=button>Start Again</button>
+        <div id="dealerScore">The dealer has 0 points. </div>
+        <div id="myScore">You have 0 points.</div>
+        <div id="status">
+            Card or stay? 
+            <button id="addCard" type=button>Card</button>
+            <button id="stay" type=button>Stay</button>
         </div>
+        <button id="reset" type=button>Start Again</button>
         <script type="text/javascript" src="projet.js"></script>
     </body>
-   
 </html>
