@@ -13,7 +13,7 @@ function createArray() {
     };
     var cards=[];
     for (var k=1;k<53;k++) {
-        cards.push(String(k)+".BMP");
+        cards.push("img/"+String(k)+".BMP");
     };
     var dico = new Object();
     for (var l=0;l<52;l++) {
