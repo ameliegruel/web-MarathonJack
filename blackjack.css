@@ -6,7 +6,7 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: radial-gradient(#81021f,#310000);
+    background-image: radial-gradient(#fff5f5,#310000);
 }
 
 .table {
