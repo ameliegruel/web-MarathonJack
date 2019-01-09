@@ -1,0 +1,68 @@
+body {
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Arial", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: radial-gradient(#ec0000,#330000);
+}
+
+.titlebg {
+    background-image: url(img/cadre.png);
+    background-repeat: no-repeat;
+    background-size: 320px 200px;
+    width: 320px;
+    height: 200px;
+    margin: auto;
+}
+
+.title {
+    color: #e5be70;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.table {
+    background-image: url(img/table.png);
+    background-repeat: no-repeat;
+    background-size: 1000px 500px;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.Cards {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dos {
+    width: 71px;
+    height: 96px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.captionCard {
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.tapis {
+    background-image: url(img/tapis.JPEG);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1200px 700px;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    position: relative;
+}

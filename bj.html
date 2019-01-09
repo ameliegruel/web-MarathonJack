@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="autor" content="Aimée BIENVENU, Amélie GRUEL">
+        <title>BlackJack</title>
+        <link rel="stylesheet" type="text/css" href="bj.css">
+    </head>
+    <body>
+        <div class="titlebg">
+            <h1 class="title">BlackJack</h1>
+        </div>
+        <div class="table">
+            <div class="Cards">
+                <figcaption class="captionCard">Dealer's card</figcaption>
+                <div id="dealerCard">
+                    <img class="dos" src ="img/dos.JPEG" alt=" " id="image1"/>
+                </div>
+                <figcaption class="captionCard">Your cards</figcaption>
+                <div id="myCard">
+                    <img class="dos" src ="img/dos.JPEG" alt=" " id="image2"/>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id=mise>Vous avez misé X jetons.</div>
+        <div id="dealerScore">The dealer has 0 points. </div>
+        <div id="myScore">You have 0 points.</div>
+        <div id="status">
+                Card or stay?
+            <button id="addCard" type=button>Card</button>
+                <button id="stay" type=button>Stay</button>
+            </div>
+        <button id="reset" type=button>Start Again</button>
+        <script type="text/javascript" src="bj.js"></script>
+    </body>
+</html>
