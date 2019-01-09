@@ -6,7 +6,24 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    background-image: radial-gradient(#fff5f5,#310000);
+    background-image: radial-gradient(#ec0000,#330000);
+}
+
+.titlebg {
+    background-image: url(img/cadre.png);
+    background-repeat: no-repeat;
+    background-size: 320px 160px;
+    width: 320px;
+    height: 160px;
+    margin: auto;
+}
+
+.title {
+    color: #e5be70;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .table {
@@ -16,9 +33,7 @@ body {
     width: 1000px;
     height: 500px;
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+    margin: auto;
 }
 
 .Cards {
@@ -42,6 +57,42 @@ body {
 }
 
 .tapis {
+    color: #efefef;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.tapisbg {
+    background-image: url(img/tapis.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 400px 200px;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.jetons {
+    position: fixed;
+    width: 150px;
+    height: 155px;
+    left:0%;
+    bottom: 0%;
+    color: #efefef;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8d0000;
+}
+
+.jetonsImg {
+    width: 100px;
+    height: 100px;
+}
+
+#results {
     background-image: url(img/tapis.JPEG);
     background-repeat: no-repeat;
     background-position: center center;

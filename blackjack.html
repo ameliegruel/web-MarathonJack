@@ -4,36 +4,45 @@
         <meta charset="utf-8">
         <meta name="autor" content="Aimée BIENVENU, Amélie GRUEL">
         <title>BlackJack</title>
-        <link rel="stylesheet" type="text/css" href="blackjack.css">
+        <link rel="stylesheet" type="text/css" href="bj.css">
     </head>
     <body>
-        <h1>BlackJack</h1>
-        <div class="tapis">
-            <div class="table">
-              <div class="Snow">
-                <img class="snow" src ="img/snow.png" alt=" " id="image5"/>
-              </div>
-                <div class="Cards">
-                    <figcaption class="captionCard">Dealer's card</figcaption>
-                    <div id="dealerCard">
-                        <img class="dos" src ="img/dos.JPEG" alt=" " id="image1"/>
-                    </div>
-                    <figcaption class="captionCard">Your cards</figcaption>
-                    <div id="myCard">
-                        <img class="dos" src ="img/dos.JPEG" alt=" " id="image2"/>
-                    </div>
+        <div class="titlebg">
+            <h1 class="title">BlackJack</h1>
+        </div>
+        <div class="table">
+            <div class="Cards">
+                <figcaption class="captionCard">Dealer's card</figcaption>
+                <div id="dealerCard">
+                    <img class="dos" src ="img/dos.JPEG" alt=" " id="image1"/>
+                </div>
+                <figcaption class="captionCard">Your cards</figcaption>
+                <div id="myCard">
+                    <img class="dos" src ="img/dos.JPEG" alt=" " id="image2"/>
                 </div>
             </div>
         </div>
         <br>
-        <div id="dealerScore">The dealer has 0 points. </div>
-        <div id="myScore">You have 0 points.</div>
-        <div id="status">
-                Card or stay?
-            <button id="addCard" type=button>Card</button>
-                <button id="stay" type=button>Stay</button>
+        <div class="tapisbg">
+            <div class="tapis">
+                <div id=mise>You have bet 0 tokens.</div>
+                <div id="dealerScore">The dealer has 0 points. </div>
+                <div id="myScore">You have 0 points.</div>
+                <div id="status">
+                    Card or stay?
+                    <button id="addCard" type=button>Card</button>
+                    <button id="stay" type=button>Stay</button>
+                </div>
+                <div id="BigLose">
+                    <button id="reset" type=button>Start Again</button>
+                </div>
             </div>
-        <button id="reset" type=button>Start Again</button>
-        <script type="text/javascript" src="blackjack.js"></script>
+        </div>
+        <div class="jetons" id="jetons">
+            You have 
+            <div id="nbJetons">100 tokens left.</div> 
+            <img class="jetonsImg" src="img/jeton.png">
+        </div>
+        <script type="text/javascript" src="bj.js"></script>
     </body>
 </html>
